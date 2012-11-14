@@ -21,7 +21,7 @@ $L = $lang = array(
 "Shortcut",
 
 "shortcut_module_description" =>
-"Creates short URL aliases to access your URLs",
+"Creates short URL aliases to access your URL\'s",
 
 "shortcut_module_version" =>
 "Shortcut",
@@ -59,26 +59,32 @@ $L = $lang = array(
 'Preferences',
 
 'shortcut_preferences_exp'	=>
-'Control your Shortcut module preferences using this form.',
+'Control your Shortcut preferences below.',
 
 'shortcut_prefix'	=>
 'Shortcut Prefix',
 
 'shortcut_prefix_exp'	=>
-'The Shortcut Prefix is used to add a prefix to your shortcut urls.',
+'This is used to add a prefix to your shortcut URL\'s, and is required for Shortcut to recognize shortened URL\'s.',
 
 'prefix_required'	=>
 'A prefix is required. Using a prefix allows the Shortcut module to recognize shortcut urls. Without the prefix, every single page request would have to first go through the Shortcut module. This would result in poor performance for your website.',
 
 'shortcut_ambiguous_chars' =>
-'Avoid using ambiguous characters in shortcut',
+'Avoid using Ambiguous Characters in Shortcut?',
 
 'shortcut_ambiguous_chars_exp' =>
-'Do not use ambiguous characters in automatically generated URL\'s (1, i, l, 0, o)',
+'Check off this box if you do not want Shortcut to use ambiguous characters in automatically generated URL\'s (1, i, l, 0, o).',
+
+'save_preferences' =>
+'Save Preferences',
 
 //----------------------------------------
 //  Shortcuts
 //----------------------------------------
+
+'full_url' =>
+'Full URL',
 
 'shortcut'	=>
 'Shortcut',
@@ -86,8 +92,14 @@ $L = $lang = array(
 'shortcuts'	=>
 'Shortcuts',
 
+'next_shortcut' =>
+'Next Shortcut',
+
 'url'	=>
 'URL',
+
+'shortcut_url' =>
+'Shortcut URL',
 
 'custom_shortcut'	=>
 'Custom Shortcut',
@@ -96,13 +108,13 @@ $L = $lang = array(
 'Actions',
 
 'shortcuts_exp'	=>
-'Create shortcut urls here.',
+'Create Shortcut URL\'s here.',
 
 'shortcut_base'	=>
 'Shortcut Base URL',
 
 'shortcut_base_exp'	=>
-'You can override the site default base url with this URL.',
+'Instead of using the default site URL, you can specify a custom one here.',
 
 'shortcut_exists'	=>
 'That shortcut already exists. Please try another.',
@@ -115,6 +127,9 @@ $L = $lang = array(
 
 'url_invalid'	=>
 'The URL you provided is invalid. Please try again.',
+
+'url_invalid_short'	=>
+'Invalid URL',
 
 'shortcut_saved'	=>
 '%shortcut% has been saved as your shortcut.',
@@ -168,15 +183,6 @@ $L = $lang = array(
 "The Shortcut module is currently disabled.  Please insure it is installed and up to date by going 
 to the module's control panel in the ExpressionEngine Control Panel",
 
-'disable_module_to_disable_extension' =>
-"To disable this extension, you must disable its corresponding <a href='%url%'>module</a>.",
-
-'enable_module_to_enable_extension' =>
-"To enable this extension, you must install its corresponding <a href='%url%'>module</a>.",
-
-'cp_jquery_requred' =>
-"The 'jQuery for the Control Panel' extension must be <a href='%extensions_url%'>enabled</a> to use this module.",
-
 'incorrect_shortcut_prefix' =>
 "Incorrect shortcut prefix",
 
@@ -185,25 +191,56 @@ to the module's control panel in the ExpressionEngine Control Panel",
 //	----------------------------------------
 
 'create_new_shortcut' =>
-'Create a shortcut URL',
+'Create a Shortcut URL',
+
+'edit_shortcut' =>
+'Edit a Shortcut URL',
 
 'paste_any_url' =>
-'Enter original URL',
+'Enter Original URL',
 
 'custom_shortcut_optional' =>
-'Custom shortcut (optional)',
+'Custom Shortcut (optional)',
 
 'get_shortcut' =>
 'Get Shortcut URL',
 
+'create_shortcut' =>
+'Create Shortcut URL',
+
+'update_shortcut' =>
+'Update Shortcut URL',
+
+'get_shortcut_loading' =>
+'Creating Shortcut...',
+
 'your_shortcut_url' =>
-'Your shortcut URL: ',
+'Your Shortcut URL: ',
 
 'recent_shortcuts' =>
 'Recent Shortcuts',
 
 'no_shortcuts' =>
 'No shortcuts found. Make some now!',
+
+'copy_shortcut_url' =>
+'Copy to Clipboard',
+
+'copied' =>
+'Copied!',
+
+'error_accessory_enter_url' =>
+'You must first provide a URL in the URL field before creating a shortcut.',
+
+//	----------------------------------------
+//	Fieldtype
+//	----------------------------------------
+
+'shortcut_full_url' =>
+'Default Full URL',
+
+'shortcut_full_url_desc' =>
+'The default full URL in the Shortcut fieldtype, used to create the shortcut URL. You may use {site_url}, {entry_id}, and {url_title} to populate them dynamically in the full URL (ex: http://mysite.com/blog/article/{url_title} or {site_url}blog/article/{url_title})',
 
 /* END */
 ''=>''
