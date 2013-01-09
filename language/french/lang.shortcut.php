@@ -1,14 +1,14 @@
 <?php
 
  /**
- * Solspace - Shortcut
+ * Shortcut - Language
  *
  * @package		Solspace:Shortcut
- * @author		Solspace DevTeam
- * @copyright	Copyright (c) 2010-2012, Solspace, Inc.
- * @link		http://www.solspace.com/docs/addon/c/Shortcut/
+ * @author		Solspace, Inc.
+ * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
+ * @link		http://solspace.com/docs/shortcut
  * @version		2.0.0
- * @filesource 	./system/expressionengine/third_party/shortcut/language/english/
+ * @filesource  shortcut/language/french/lang.shortcut.php
  * @translation	French translation by @putitinred
  */
 
@@ -22,7 +22,7 @@ $L = $lang = array(
 "Shortcut / Raccourci",
 
 "shortcut_module_description" =>
-"Crée de courts alias d'URL afin d'accéder à vos URLs",
+"Crée de courts alias d'URL afin d'accéder à vos URLs complètes",
 
 "shortcut_module_version" =>
 "Shortcut / Raccourci",
@@ -44,13 +44,13 @@ $L = $lang = array(
 "Mettre à jour le module Shortcut",
 
 'update_failure' =>
-"La MAJ a échoué.",
+"La mise à jour a échoué.",
 
 'update_successful' =>
-"La MAJ a réussi.",
+"La mise à jour a réussi.",
 
 'shortcut_update_message' =>
-"Il semble que vous ayez téléchargé une nouvelle version de Shortcut. Merci d'exécuter le script de MAJ en cliquant sur 'Mettre à Jour' ci-dessous.",
+"Il semble que vous ayez téléchargé une nouvelle version de Shortcut. Merci d'exécuter le script de mise à jour en cliquant sur 'Mettre à Jour' ci-dessous.",
 
 //----------------------------------------
 //  Preferences
@@ -60,13 +60,13 @@ $L = $lang = array(
 'Préférences',
 
 'shortcut_preferences_exp'	=>
-'Gérer vos préférences pour Shortcut ci-dessous.',
+'Gérer vos préférences pour Shortcut / Raccourci ci-dessous.',
 
 'shortcut_prefix'	=>
 'Préfixe Shortcut',
 
 'shortcut_prefix_exp'	=>
-'Ceci sert à ajouter un préfixe à vos URL raccourcies : c\'est obligatoire pour que Shortcut reconnaisse ces URL.',
+'Ceci sert à ajouter un préfixe à vos URL raccourcies : c\'est obligatoire pour que Shortcut reconnaisse ces URLs.',
 
 'prefix_required'	=>
 'Un préfixe est requis. Ce préfixe permet à Shortcut de reconnaître les URL raccourcies. Sans le préfixe, TOUTES les requêtes de page web devraient d\'abord passer dans le module Shortcut. Cela générerait de très mauvaises performances d\'accès à votre site web !',
@@ -203,7 +203,7 @@ $L = $lang = array(
 'Raccourci personnalisé (optionnel)',
 
 'get_shortcut' =>
-'Récupérer une URL Shortcut',
+'Créer une URL Shortcut',
 
 'create_shortcut' =>
 'Créer une URL Shortcut',
